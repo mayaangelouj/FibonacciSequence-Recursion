@@ -31,11 +31,11 @@ function fibonacciRecursive(n) {
 }
 
 // Testing the functions
-let n= 10; // Let's calculate the 10th Fibonacci number
+let number= 10; // Let's calculate the 10th Fibonacci number
 
 // Test and print results for both methods
-console.log("Fibonacci (" + n + ") using loops: " + fibonacciLoop(n));
-console.log("Fibonacci (" + n + ") using recursion: " + fibonacciRecursive(n));
+console.log("Fibonacci (" + number + ") using loops: " + fibonacciLoop(number));
+console.log("Fibonacci (" + number + ") using recursion: " + fibonacciRecursive(number));
 
 
 
